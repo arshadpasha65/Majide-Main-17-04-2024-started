@@ -3,6 +3,7 @@
     --primary-color: #48d4e0;
     --secandry-color: rgb(185, 75, 185);
 }
+
 *{
     padding: 0px;
     margin: 0px;
@@ -167,10 +168,11 @@ ul {
 /* ***************************************************** SLIDER OF # IMGS ************************************************** */
 
 .slideshow-container {
-    
+    padding: 100px 90px;
     transition: background-color 0.6s ease;
-  }
   
+  }
+    
   
   /* Caption text */
   .text {
@@ -211,7 +213,9 @@ ul {
   .fade {
     animation-name: slideln;
     animation-duration: 1.5s;
+    
   }
+ 
   
   @keyframes fade {
     from {opacity: .4} 
@@ -222,5 +226,7 @@ ul {
   @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
   }
+
+
 
   /* ***************************************************** SLIDER OF # IMGS END ************************************************** */
