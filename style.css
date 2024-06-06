@@ -118,7 +118,7 @@ ul {
 .closeBtn,.menuBtn{
     display: none;
 }
-/* ----------------------------------- media of header ------------------------------------------- */
+/* ----------------------------------- media of header for Phone ------------------------------------------- */
 @media (max-width: 800px) {
 
     .topHeader .topHl{
@@ -126,11 +126,7 @@ ul {
         width: 0%;
  
     }
-    .slideshow-container {
-        
-        transition: background-color 0.6s ease;
-      
-      }
+   
         
     .topHeader .topHr{
         display: flex;
@@ -173,12 +169,15 @@ ul {
 
 /* ***************************************************** SLIDER OF # IMGS ************************************************** */
 
+
+/* * ----------------------------------- media for DEtop------------------------------------------  */
+@media (min-width: 1000px) {
 .slideshow-container {
-    padding: 100px 90px;
+    padding: 40px 80px;
     transition: background-color 0.6s ease;
   
   }
-    
+}
   
   /* Caption text */
   .text {
