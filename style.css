@@ -126,6 +126,12 @@ ul {
         width: 0%;
  
     }
+    .slideshow-container {
+        
+        transition: background-color 0.6s ease;
+      
+      }
+        
     .topHeader .topHr{
         display: flex;
         width: 100%;
